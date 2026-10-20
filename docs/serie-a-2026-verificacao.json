@@ -1,0 +1,804 @@
+{
+  "reviewed": "2026-10-20",
+  "badge_revision": 5,
+  "clubs": 20,
+  "wallpapers": 60,
+  "wallpapers_per_club": 3,
+  "baseline_commit": "c1734e32de29944a4204ee091c60344da14364ef",
+  "badge_revision_baseline_commit": "c1734e32de29944a4204ee091c60344da14364ef",
+  "first_two_wallpapers_unchanged": 40,
+  "first_two_wallpapers_stadium_captions_updated": [],
+  "first_two_preserved_during_badge_revision": 40,
+  "visual_review": "20 enlarged shirt applications and full poster gallery checked against collar, sternum, armhole and pectoral fold. Perspective, scale, clearance and shirt-specific print regions reviewed; six before/after comparisons. Original badge lettering retained.",
+  "stadium_sources": "src/estadios.json",
+  "uniform_layout": "src/mascotes-layout.json",
+  "uniform_references": "docs/uniformes-2026.md",
+  "shirt_application": "native-shirt-surface; projective mesh fitted independently to each pose; soft curvature, lighting and thread texture; native artwork preserved",
+  "cloth_region_checks": {
+    "vasco": {
+      "solid_mark_pixels": 2327,
+      "matching_cloth_fraction": 0.99828,
+      "region": "white sash"
+    },
+    "flamengo": {
+      "solid_mark_pixels": 861,
+      "matching_cloth_fraction": 1.0,
+      "region": "red chest band",
+      "gold_star_pixels": 8,
+      "star_on_black_fraction": 1.0
+    }
+  },
+  "active_theme": "Ethereal",
+  "teams": [
+    {
+      "slug": "santos",
+      "stadium": "VILA BELMIRO",
+      "installed": true,
+      "source_sha256": "41b2d3a7dc311aca75059e72ef7806f2196437429f4655c2e652ec0d545d3df3",
+      "badge_asset": "crests/santos.png",
+      "badge_sha256": "4833d510db584cba48a849f6d065cf6aae5663cd6e365ecfb40515830a9af94d",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/santos/backgrounds/1-arte.jpg": "40fff3aa2809350e1dd4336a96bd6d33dcf6a3cef50ff18e1254bb701524d238",
+        "themes/santos/backgrounds/2-escudo.jpg": "3f049caa6d1e13494f3f81bf9df76d3b580e2502dde45462df67ad091943b2ee",
+        "themes/santos/backgrounds/3-mascote.jpg": "c5bb794a7ffc034b208e7d558e3ad1389526e44e194350beb60a55c24d4e2fbe"
+      },
+      "kit_model": "Umbro 2026 — uniforme 2 listrado",
+      "kit_reference": "https://www.santosfc.com.br/santos-fc-e-umbro-apresentam-a-nova-camisa-listrada-para-a-temporada-2026/",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1165,
+            249
+          ],
+          [
+            1204,
+            261
+          ],
+          [
+            1194,
+            310
+          ],
+          [
+            1154,
+            297
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "corinthians",
+      "stadium": "NEO QUÍMICA ARENA",
+      "installed": true,
+      "source_sha256": "e4ca496a88c1b95f0dcb5be8b5241d50362a803c0f7aa75eb68668219f7fcd2e",
+      "badge_asset": "crests/corinthians-2026.png",
+      "badge_sha256": "9333580b7e580db2387b91f5de952b88b9fbd062eea9048675dc67586e93cefb",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/corinthians/backgrounds/1-arte.jpg": "470fc414ef015e15f0e5e2b21389d09a168dfe41c81165ce615143b0f690b67f",
+        "themes/corinthians/backgrounds/2-escudo.jpg": "8dd8850db80f53e489eeb390fc48f70ba9334771a08a717c2cab128ff5fd9e70",
+        "themes/corinthians/backgrounds/3-mascote.jpg": "e31b0f98d2ac6e7aa7a864e27598b12cd1c9a3dc344916083207ff01e44709f0"
+      },
+      "kit_model": "Nike I 2026/27",
+      "kit_reference": "https://www.nike.com.br/camisa-corinthians-nike-i-2026-27-jogador-masculina-103985.html",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1128,
+            238
+          ],
+          [
+            1167,
+            244
+          ],
+          [
+            1161,
+            298
+          ],
+          [
+            1123,
+            290
+          ]
+        ],
+        "curve": 0.45
+      }
+    },
+    {
+      "slug": "palmeiras",
+      "stadium": "NUBANK PARQUE",
+      "installed": true,
+      "source_sha256": "d08dbde49673c1968e10219eed2ea19b020c9f35d27b3929b80e095012f441b9",
+      "badge_asset": "kit-badges/palmeiras-camisa.svg",
+      "badge_sha256": "c7ff098e7da4e9682d539a99b38d1f50e2927b8b790f60584c7b329c9d9c4cb2",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/palmeiras/backgrounds/1-arte.jpg": "3017c39a9fbd9c49dd16133196bebe5ce6debe59535f88b73c8953911881f4f4",
+        "themes/palmeiras/backgrounds/2-escudo.jpg": "e04bffb255bed489966db020687efbff3d232bae52b53a12682f055464de52c6",
+        "themes/palmeiras/backgrounds/3-mascote.jpg": "28773e417c708987152a12fdf798ac1a8a4ea8b6c6298d064e11286583acbc56"
+      },
+      "kit_model": "Puma Home 2026",
+      "kit_reference": "https://www.palmeiras.com.br/noticias/palmeiras-e-puma-apresentam-novos-uniformes-para-temporada-2026/",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1141,
+            245
+          ],
+          [
+            1182,
+            258
+          ],
+          [
+            1172,
+            301
+          ],
+          [
+            1133,
+            286
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "sao-paulo",
+      "stadium": "MORUMBIS",
+      "installed": true,
+      "source_sha256": "37ceac01955becf1b1833cf0acf8dae8fb9616274188768507c498575c933a26",
+      "badge_asset": "kit-badges/sao-paulo-camisa.svg",
+      "badge_sha256": "9e1add5676c3db4b5b3f0abce6c1185a04ae778cbd6719784b0f292feb899c53",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/sao-paulo/backgrounds/1-arte.jpg": "07d0207745e6ece7538429039fcf2cf034372241023473e98b344abc3e3d968f",
+        "themes/sao-paulo/backgrounds/2-escudo.jpg": "f72403345e54090364c4d2ab8ed0655f0b2aee8ecc309aaafd9a9082297ff3fd",
+        "themes/sao-paulo/backgrounds/3-mascote.jpg": "361727504b958b6044cea6b07dc592588180c22a3413f328f2a035306b6bc980"
+      },
+      "kit_model": "New Balance Home 2026",
+      "kit_reference": "https://www.saopaulofc.net/new-balance-e-sao-paulo-futebol-clube-iniciam-contagem-para-o-centenario-com-nova-camisa-de-2026/",
+      "badge_placement": "central",
+      "shirt_surface": {
+        "corners": [
+          [
+            1069,
+            235
+          ],
+          [
+            1124,
+            247
+          ],
+          [
+            1124,
+            320
+          ],
+          [
+            1069,
+            308
+          ]
+        ],
+        "curve": 0.45
+      }
+    },
+    {
+      "slug": "athletico-paranaense",
+      "stadium": "ARENA DA BAIXADA",
+      "installed": true,
+      "source_sha256": "f875af7dce79d8f7ad917e16358bc7ca6130ea97d941392aa50a31ca50141326",
+      "badge_asset": "kit-badges/athletico-white.svg",
+      "badge_sha256": "71e43dbfc604d912ce04451adc27731568ef78a67ffe3feaca14ef4331d3ab53",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/athletico-paranaense/backgrounds/1-arte.jpg": "470e6da46e864b8a646695df8308cb3d013f180f43fb30c6d29c1ebb1641ca3c",
+        "themes/athletico-paranaense/backgrounds/2-escudo.jpg": "b9de7723f31aa8a27e3627800630078a4ca3481933aca086b0dd2f4eec7e55c5",
+        "themes/athletico-paranaense/backgrounds/3-mascote.jpg": "04f4dab34c751ed7040a7d7b0816ef68814405ea8ad337a17709a6bc7df864d3"
+      },
+      "kit_model": "Umbro Oficial 1 2026",
+      "kit_reference": "https://loja.athletico.com.br/010040-camisa-masculina-athletico-jogador-oficial-1-2026/p",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1150,
+            252
+          ],
+          [
+            1190,
+            260
+          ],
+          [
+            1180,
+            306
+          ],
+          [
+            1142,
+            296
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "atletico-mineiro",
+      "stadium": "ARENA MRV",
+      "installed": true,
+      "source_sha256": "cb4c147707baa2b9a30ea2440ad8fbbfa37c5563356f1c86eb7935844900e6c1",
+      "badge_asset": "crests/atletico-mineiro.png",
+      "badge_sha256": "29e55e2557a10f7cd6b5b9ed2a32707a871fbda7fbe4408d27ed7ed673f17f37",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/atletico-mineiro/backgrounds/1-arte.jpg": "15d10c195b4046bd377a99ed02cd987529f2a1df5dc172cefed3a6ec78fd872c",
+        "themes/atletico-mineiro/backgrounds/2-escudo.jpg": "3b7382796ab594044d76db2d46d39507ab89839e244b6ab5991e676d83215d53",
+        "themes/atletico-mineiro/backgrounds/3-mascote.jpg": "87494d3723e308189038ea61ab633348cb77776ea651d4ec20f9fda5eeac6162"
+      },
+      "kit_model": "Nike I 2026/27",
+      "kit_reference": "https://www.nike.com.br/camisa-atletico-mineiro-nike-i-202627-torcedor-pro-masculina-098346.html?cor=IE",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1131,
+            316
+          ],
+          [
+            1170,
+            326
+          ],
+          [
+            1163,
+            374
+          ],
+          [
+            1125,
+            363
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "bahia",
+      "stadium": "CASA DE APOSTAS ARENA FONTE NOVA",
+      "installed": true,
+      "source_sha256": "4056b0916407403f0a668891e1b00817b60c6fc5bf700e49b7a6ee1c0db7a088",
+      "badge_asset": "crests/bahia.png",
+      "badge_sha256": "21fd57c4580b5305966584a2ecd196cba36abbaf19c7c440f53030bc94ddeab9",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/bahia/backgrounds/1-arte.jpg": "ecd5184849abe4a6b6a89bcc58785975e6af387364437ca5fdb59040072bff9e",
+        "themes/bahia/backgrounds/2-escudo.jpg": "58d2f884fba51435051697128ee5c6d6f41ff7c2ef992b8a9fe04dcc6d8f123c",
+        "themes/bahia/backgrounds/3-mascote.jpg": "ee752c7ee3ed3fb0ce2cb40ed94108fc44b8321f6a6056743eaf82f4521daeae"
+      },
+      "kit_model": "Puma 2026 — tricolor",
+      "kit_reference": "https://www.esporteclubebahia.com.br/do-povo-um-clamor/",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1135,
+            232
+          ],
+          [
+            1174,
+            243
+          ],
+          [
+            1164,
+            290
+          ],
+          [
+            1128,
+            278
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "botafogo",
+      "stadium": "NILTON SANTOS",
+      "installed": true,
+      "source_sha256": "798b550acd6b80e3f9e569abb537dae44c813ba4509047b0458693afb48074be",
+      "badge_asset": "crests/botafogo.png",
+      "badge_sha256": "e4e9257c2b559f5e10e507e52221cd2b31e12a07cd46b8ba4b8e696342b78d2c",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/botafogo/backgrounds/1-arte.jpg": "54f1a21271d155f22cfd6705185007eedcfef5a8565e8cb3ffae45173cab9270",
+        "themes/botafogo/backgrounds/2-escudo.jpg": "3f8af5f2e27b894b742012ada27dca1f8443420ae6ea248310c7cf4921d1db0a",
+        "themes/botafogo/backgrounds/3-mascote.jpg": "ec5c65b162f83f8d744c3f0eed2f3601f096ed0854f87ad985fefe9958339000"
+      },
+      "kit_model": "Mizuno Home 2026/27",
+      "kit_reference": "https://botafogo.com.br/noticias/eu-sou-do-preto-e-branco",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1152,
+            255
+          ],
+          [
+            1191,
+            269
+          ],
+          [
+            1179,
+            315
+          ],
+          [
+            1142,
+            299
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "chapecoense",
+      "stadium": "ARENA CONDÁ",
+      "installed": true,
+      "source_sha256": "e22f68233c73d0dd5debeb8307ee87e7363e384847f532feac739e9875bc49fe",
+      "badge_asset": "kit-badges/chapecoense-camisa.svg",
+      "badge_sha256": "1c98ec33641a40f8f4d5a443ccc5a7c2b6c360aaa36dff987825fa5aae3d4ea1",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/chapecoense/backgrounds/1-arte.jpg": "ac8b0589ad994f8436be26132968e39a05df5a1b2dd32961f7c0dd555c947330",
+        "themes/chapecoense/backgrounds/2-escudo.jpg": "78f39e03972c5a4e5ad15fa4a5fd0928729ac49d53bcf196bdf9ab5282ea8e31",
+        "themes/chapecoense/backgrounds/3-mascote.jpg": "37b9357ee87dc61a87b29ad31c253cd22fcb901d5cfa0b899896f076544abf75"
+      },
+      "kit_model": "Kappa OF.1 2026",
+      "kit_reference": "https://chapecoense.com/2025/12/15/chapecoense-e-kappa-lancam-a-camisa-of-1-da-temporada-2026/",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1119,
+            342
+          ],
+          [
+            1159,
+            358
+          ],
+          [
+            1145,
+            400
+          ],
+          [
+            1107,
+            383
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "coritiba",
+      "stadium": "COUTO PEREIRA",
+      "installed": true,
+      "source_sha256": "c80301975565d9b7e4ad9a649857cb755bf9e15a7a4c10862557dc910d6152ff",
+      "badge_asset": "kit-badges/coritiba-camisa.svg",
+      "badge_sha256": "06ecc9896a134489b1e203a902d81e4b83f9123be54b48749fd24984be72bff6",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/coritiba/backgrounds/1-arte.jpg": "c838c184d2f8ccfa8996911e93c5956ee7bea01b0a844cd89bfd077888397326",
+        "themes/coritiba/backgrounds/2-escudo.jpg": "0e4bde3eebdfa36647277b491bcd290034fed448cff915cd30edaf14f400c09b",
+        "themes/coritiba/backgrounds/3-mascote.jpg": "a369a6aa250d76a41df00f260c622b43cd3a17f1919f49aa2dfb97ccde7009f5"
+      },
+      "kit_model": "Diadora Oficial Jogo 1 2026",
+      "kit_reference": "https://www.diadorabrasil.com.br/camisa-coritiba-diadora-masculina-oficial-jogo-1-2026-branca-11673278/p",
+      "badge_placement": "central",
+      "shirt_surface": {
+        "corners": [
+          [
+            1070,
+            242
+          ],
+          [
+            1117,
+            255
+          ],
+          [
+            1103,
+            302
+          ],
+          [
+            1056,
+            289
+          ]
+        ],
+        "curve": 0.45
+      }
+    },
+    {
+      "slug": "cruzeiro",
+      "stadium": "MINEIRÃO",
+      "installed": true,
+      "source_sha256": "d4eceead4cc1ccdba24619c64c27dd4e6475a6fadcfbcc5808347219d4bfd564",
+      "badge_asset": "kit-badges/cruzeiro-estrelas.svg",
+      "badge_sha256": "cd8fcbe6fd9531882e2f60d070701e34df0dd63912428405570ebff65cdc913c",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/cruzeiro/backgrounds/1-arte.jpg": "50a7d0c2e7e87a552356ca5d849fce36c05eb16c879901f8eb5fd1b3b05cb97a",
+        "themes/cruzeiro/backgrounds/2-escudo.jpg": "c1fb8e9aaec13e1f2aaffc58aa7c7d0b89117a6c23a60882772acff20cd7993a",
+        "themes/cruzeiro/backgrounds/3-mascote.jpg": "c159649980cc4ea233bb3a08b9bb026579d66ab746958497937ed76b774b1d3d"
+      },
+      "kit_model": "Adidas I 2026",
+      "kit_reference": "https://www.adidas.com.br/camisa-i-cruzeiro-26/KT0124.html",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1125,
+            317
+          ],
+          [
+            1163,
+            330
+          ],
+          [
+            1153,
+            376
+          ],
+          [
+            1115,
+            362
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "flamengo",
+      "stadium": "MARACANÃ",
+      "installed": true,
+      "source_sha256": "ebb82a21c6b3244e0c9d48195c32e1614124c3ce7fe53da6aa38eeac2b0f2423",
+      "badge_asset": "kit-badges/flamengo-camisa.svg",
+      "badge_sha256": "130ea8b5e758f0d3cadd9a4b4180411f7de5010e82b5f73541351915c16897c9",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/flamengo/backgrounds/1-arte.jpg": "81f0ea3ed45017d9a63a0eb6add1d4a0001160b5336b760c1d2d5bc36ae35149",
+        "themes/flamengo/backgrounds/2-escudo.jpg": "34d417464e972ba7d750f09b50054abdb575e508944956edca1e37cdc455deaa",
+        "themes/flamengo/backgrounds/3-mascote.jpg": "5d5795fb5bfc01c4b7126ba63f8c06173bb9e850824c9d67c5686b609c379dae"
+      },
+      "kit_model": "Adidas I 2026",
+      "kit_reference": "https://www.adidas.com.br/camisa-i-cr-flamengo-26/JM5651.html",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1145,
+            225
+          ],
+          [
+            1178,
+            234
+          ],
+          [
+            1171,
+            272
+          ],
+          [
+            1138,
+            261
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "fluminense",
+      "stadium": "MARACANÃ",
+      "installed": true,
+      "source_sha256": "813a80936083e49321cb2049d612a26c27bf9fa25ccb31dd03ea8cbbff8bf1b3",
+      "badge_asset": "crests/fluminense.png",
+      "badge_sha256": "ef20f396606f8c0a6a5f30dd4fddc8ed899aa64326e11da216ef9b2674c7bfb3",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/fluminense/backgrounds/1-arte.jpg": "857d8744ebc4379c5b545a24e76ed0cf4c8420038d5b6e3f1d83949aeb3a9ecf",
+        "themes/fluminense/backgrounds/2-escudo.jpg": "947a0ad77f437310536b417a7f1c2b31e73f4c4ceefe79d2fdde6fec31978473",
+        "themes/fluminense/backgrounds/3-mascote.jpg": "9707331f2feb547b814c15da10434570de43312bd35a743ef496eef6e5c56341"
+      },
+      "kit_model": "Puma 2026 — tricolor",
+      "kit_reference": "https://www.fluminense.com.br/noticia/fluminense-e-puma-anunciam-parceria-e-apresentam-uniformes-para-2026",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1137,
+            309
+          ],
+          [
+            1174,
+            320
+          ],
+          [
+            1163,
+            365
+          ],
+          [
+            1128,
+            352
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "gremio",
+      "stadium": "ARENA DO GRÊMIO",
+      "installed": true,
+      "source_sha256": "ccb72d478f6c072963887b1ff4fb299ba5a413682dea7f8d5e01630c9ddb9ad1",
+      "badge_asset": "crests/gremio.png",
+      "badge_sha256": "f8df1d11ce813c3fd28f0be638a564bdd0a6c67a153e3d0a77d8d38e4421ea24",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/gremio/backgrounds/1-arte.jpg": "1b580d177165e42ae725b7442492c48d8b209704128be813543bf6be7431d8e0",
+        "themes/gremio/backgrounds/2-escudo.jpg": "e6453b343b2da61643126f3ae944cf6534d4cdc24c8f09f62c026681d84be865",
+        "themes/gremio/backgrounds/3-mascote.jpg": "2b77f074ace0f9bbf6ccddeb466b5c6f6ea50f7a717d0cc169490ce822faa655"
+      },
+      "kit_model": "New Balance Home 2026",
+      "kit_reference": "https://gremio.net/noticias/detalhes/30130/",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1135,
+            248
+          ],
+          [
+            1174,
+            260
+          ],
+          [
+            1163,
+            306
+          ],
+          [
+            1126,
+            293
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "internacional",
+      "stadium": "BEIRA-RIO",
+      "installed": true,
+      "source_sha256": "8f3cc427d239ed3df7b1d08ed453b4830d8d68b5d7cb3aecc14af665dfe37fce",
+      "badge_asset": "kit-badges/internacional-camisa.svg",
+      "badge_sha256": "c28996a3c3c752e84deb5c0c8e5ceec869ea3459bbebb6dafa7c6fbbfd2d94b6",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/internacional/backgrounds/1-arte.jpg": "f63305449e9f590e089be72e6ce25d98249689fb2e5843030f02080a46edff5b",
+        "themes/internacional/backgrounds/2-escudo.jpg": "e9fab639b51f409a05035ca92d899098e81176ba62fb28bafda2c46c85075ea4",
+        "themes/internacional/backgrounds/3-mascote.jpg": "bc42b18a0bf060f8673c6c0db2cf3c2dc10ae8d6c0d2076b8aac6b104667b21e"
+      },
+      "kit_model": "Adidas Home 2026 — Libertadores 2006",
+      "kit_reference": "https://sitiooficial.internacional.com.br/noticias/gestao-e-clube/novo-uniforme-para-a-temporada-2026-celebra-primeiro-titulo-da-libertadores",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1133,
+            232
+          ],
+          [
+            1173,
+            242
+          ],
+          [
+            1163,
+            295
+          ],
+          [
+            1124,
+            283
+          ]
+        ],
+        "curve": 0.7
+      },
+      "pose": "One leg planted on the grass; one football held securely in the right arm, leaving the shirt badge visible."
+    },
+    {
+      "slug": "mirassol",
+      "stadium": "JOSÉ MARIA DE CAMPOS MAIA",
+      "installed": true,
+      "source_sha256": "12502a85aac6db614187c433d37ff7825c70c5bdb50bd2196578c54344a6a9cb",
+      "badge_asset": "kit-badges/mirassol-camisa.svg",
+      "badge_sha256": "fe1fc97acac237a5a0412087860cdb70f08e46fed94f50226a3809ffbb1f886b",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/mirassol/backgrounds/1-arte.jpg": "51021e58949280014544901b14291f6394f420a4d8f1fdf52c32cf0d6b1772e3",
+        "themes/mirassol/backgrounds/2-escudo.jpg": "ac4fa66d7a63fa2ae8a48915075ef998995b6ac41eab856317357ac849b9ad88",
+        "themes/mirassol/backgrounds/3-mascote.jpg": "0318aad8d8f2f9f4e6c11e1ad5483fec52ddeae953e0467412bce2c277665220"
+      },
+      "kit_model": "Athleta 2026 — amarelo",
+      "kit_reference": "https://mirassolfc.com.br/blogs/news/mirassol-lanca-nova-colecao-de-uniformes-que-marca-ano-historico-no-futebol-nacional-e-internacional",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1146,
+            248
+          ],
+          [
+            1183,
+            260
+          ],
+          [
+            1172,
+            303
+          ],
+          [
+            1136,
+            290
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "red-bull-bragantino",
+      "stadium": "CÍCERO DE SOUZA MARQUES",
+      "installed": true,
+      "source_sha256": "e24132cffb0afe3e24cd9966e9354fa6d4b459bef85025c3e72baa94d18d3d6b",
+      "badge_asset": "crests/red-bull-bragantino.png",
+      "badge_sha256": "388c6be03414040caea3a0a2ae86d303cd070e2164ebe3028059e14c776c8caf",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/red-bull-bragantino/backgrounds/1-arte.jpg": "1a9c86de220475469e24b13824c134198f068100dc02b56c35304adaa075b538",
+        "themes/red-bull-bragantino/backgrounds/2-escudo.jpg": "b0e70a442d87dda94f257c3a5c93faa9c637a3cbc3cd9fc57e2a708df803e796",
+        "themes/red-bull-bragantino/backgrounds/3-mascote.jpg": "b0b981dba82733b49b92026e80ec52003e3892551d18ef52fd0de0bb0e600ae9"
+      },
+      "kit_model": "Puma Home 2026",
+      "kit_reference": "https://br.puma.com/pd/camisa-red-bull-bragantino-home-2026/787209.html",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1137,
+            244
+          ],
+          [
+            1185,
+            258
+          ],
+          [
+            1175,
+            300
+          ],
+          [
+            1128,
+            285
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "remo",
+      "stadium": "MANGUEIRÃO",
+      "installed": true,
+      "source_sha256": "42f907e7d2bac0698cce22b5f096c715a5422c0fdc7f68ec0ddcaa313e4392ea",
+      "badge_asset": "crests/remo.png",
+      "badge_sha256": "8320c75dd2d17c07603e0f417008da5065be24b93e22dddc475dc540cc137e53",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/remo/backgrounds/1-arte.jpg": "6f44ac43bc0dd3f8307cac93bc5eb6105fa19d569a6d02b25091a595a91ee0a0",
+        "themes/remo/backgrounds/2-escudo.jpg": "54e9e8440d0607049f63f2608fa2a57f83e81773ae0565a0b4c76ade6a9a9ae9",
+        "themes/remo/backgrounds/3-mascote.jpg": "84dfdf39ce3939c0cf0100f56ac37689712e99d0bab24d0cd4b4a7f02640c66a"
+      },
+      "kit_model": "Volt Jogo 1 2026",
+      "kit_reference": "https://clubedoremo.com.br/loja?colecao=volt&ordenar=padrao",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1141,
+            239
+          ],
+          [
+            1177,
+            249
+          ],
+          [
+            1167,
+            295
+          ],
+          [
+            1133,
+            284
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "vasco",
+      "stadium": "SÃO JANUÁRIO",
+      "installed": true,
+      "source_sha256": "dceca73aa31bf745a98c43c5c2e518406d76e3958551f1dd724c4e6f58596cd5",
+      "badge_asset": "kit-badges/vasco-cruz.svg",
+      "badge_sha256": "be272fc174d5685bda4438831fe3c0bbd1657ef8cc4acc595f6711ee338ad8f2",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/vasco/backgrounds/1-arte.jpg": "af61af7f443176089a0a121ffbd5f42ef65b5a2fb9675f94c3dad9bc69e56672",
+        "themes/vasco/backgrounds/2-escudo.jpg": "6acd5b25c0d3fc8ca49888abf4cbefc4ec3f669efc21176a2243cae3c14a4709",
+        "themes/vasco/backgrounds/3-mascote.jpg": "f94266622de315c1c9d1df4ec395f2a62e98e34441e3425f03aac0268a650e6a"
+      },
+      "kit_model": "Nike I 2026/27",
+      "kit_reference": "https://www.nike.com.br/camisa-vasco-nike-i-2026-27-jogador-masculina-098307.html?cor=ID",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1116,
+            231
+          ],
+          [
+            1152,
+            241
+          ],
+          [
+            1143,
+            280
+          ],
+          [
+            1108,
+            269
+          ]
+        ],
+        "curve": 0.7
+      }
+    },
+    {
+      "slug": "vitoria",
+      "stadium": "BARRADÃO",
+      "installed": true,
+      "source_sha256": "b5548deddc4208fde3963a49413626fcea4b88f6e4b1ddcd2afc3e8ff3850974",
+      "badge_asset": "kit-badges/vitoria-camisa.svg",
+      "badge_sha256": "450dddd184aa0b89376ceef8a239c651c47846cf965d23ff5936677b9c31b45a",
+      "badge_reviewed": true,
+      "wallpapers": {
+        "themes/vitoria/backgrounds/1-arte.jpg": "d0d9b5b2d19b9a84dec69b8ecf946ed6b269b28f3f3ac2b1cf12dc6d8548c53b",
+        "themes/vitoria/backgrounds/2-escudo.jpg": "9ee222f690f9ceb8d33d42e7008da05d5ee8095324547f02c5118d7b5a430381",
+        "themes/vitoria/backgrounds/3-mascote.jpg": "d1210f5374065c875516b9fee8b79abb68e3a3527075f0241d57c342748e5b98"
+      },
+      "kit_model": "Volt Jogo 1 2026 — peça de 02/05/2026",
+      "kit_reference": "https://mws.com/us/product/carlos-rene-de-sousa-ferreira-j-XbSu8toEOBXlf7E_UQ0Q",
+      "badge_placement": "wearer-left",
+      "shirt_surface": {
+        "corners": [
+          [
+            1141,
+            250
+          ],
+          [
+            1178,
+            260
+          ],
+          [
+            1168,
+            307
+          ],
+          [
+            1132,
+            296
+          ]
+        ],
+        "curve": 0.7
+      }
+    }
+  ],
+  "mascot_pose_update": {
+    "slug": "internacional",
+    "reviewed": "2026-10-20",
+    "approved": true,
+    "pose": "Single leg planted on grass; football held in the right arm.",
+    "provenance": "assets/mascotes-generated/internacional-pose-revisao.json",
+    "other_wallpapers_preserved": 59
+  },
+  "active_theme_changed_by_this_update": false
+}
