@@ -17,36 +17,19 @@ o time para o qual torço.
 
 ## Instalação
 
-Clone o pacote e instale os temas dos clubes:
-
-```bash
-gh repo clone JohnRenatoDev/omarchy-arquibancada-theme
-cd omarchy-arquibancada-theme
-./install.sh --link --menu
-```
-
-O instalador acrescenta os temas dos clubes ao Omarchy. A opção de menu adiciona
-as entradas ausentes e faz um backup do menu antes de alterá-lo. Temas locais que
-já existam como diretórios independentes são preservados; rodar o instalador
-novamente com as mesmas opções não duplica entradas no menu.
-
-```bash
-./install.sh --link --menu   # instala os 20 e completa o menu Clubes
-omarchy theme set flamengo  # exemplo; use qualquer slug da tabela
-omarchy theme bg next       # alterna os três wallpapers
-```
-
-Use `./install.sh --copy` se preferir uma cópia autocontida. Cada clube tem sua
-própria prévia no seletor de temas do Omarchy.
-
-Para instalar apenas a variante padrão do Santos pelo Omarchy, execute:
+Instale a variante padrão do Santos pelo Omarchy:
 
 ```bash
 omarchy theme install https://github.com/JohnRenatoDev/omarchy-arquibancada-theme.git
 ```
 
-Isso instala um único tema chamado `arquibancada`. Para ter os 20 clubes, use
-`install.sh` a partir do repositório clonado.
+Ela aparece como `arquibancada` no seletor de temas. Use `omarchy theme bg next`
+para alternar entre os três wallpapers.
+
+As variantes dos outros clubes ficam em `themes/<slug>/`, cada uma com paleta,
+wallpapers e prévia próprios. As [ferramentas opcionais do Arquibancada](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/blob/main/README.pt-BR.md#instalar-os-temas-dos-clubes)
+permitem instalar os 20 clubes de um clone local e adicioná-los ao menu do Omarchy.
+O instalador e as ferramentas de geração ficam nesse repositório separado.
 
 ## Clubes
 
@@ -101,26 +84,21 @@ explicam a composição e listam os arquivos de origem.
 
 Qualquer pessoa é bem-vinda para abrir um pull request e corrigir ou melhorar um
 tema. Um escudo fora do lugar, um detalhe do uniforme ou uma cor que ficou
-estranha merecem correção. Contribuições para os wallpapers e o instalador
-também são bem-vindas.
+estranha merecem correção. Contribuições para os wallpapers são bem-vindas aqui.
+Mudanças no instalador e no compositor pertencem ao
+[repositório de ferramentas](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools).
 
 Se você torce por um desses clubes, seu olhar para os detalhes ajuda. Inclua uma
 imagem de referência ou uma prévia do antes e depois quando puder.
 
 ## Desenvolvimento
 
-Você precisa de Python 3, ImageMagick, `rsvg-convert` e das fontes Anton, Oswald e
-JetBrains Mono. As artes já fazem parte do pacote; o build dispensa gerador de
-imagens, GPU ou token.
+O [repositório de ferramentas](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools) reúne as artes-base, o compositor,
+o instalador e as verificações. Ele grava os arquivos finais em um checkout do
+tema ou em uma pasta de exportação separada. As [notas de desenvolvimento](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/blob/main/docs/development.pt-BR.md)
+explicam os comandos e as dependências.
 
-```bash
-python3 src/build.py --mascotes-only  # só pôsteres e previews dos 20
-python3 src/build.py flamengo gremio    # todos os wallpapers desses clubes
-python3 src/build.py                    # pacote completo
-```
-
-As [notas de desenvolvimento](docs/development.pt-BR.md) e o [status da revisão](docs/mascotes-status.md)
-detalham a composição e as verificações.
+Este repositório distribui os temas prontos e sua documentação.
 
 ## Direitos e créditos
 
@@ -129,7 +107,8 @@ clubes e titulares. O Arquibancada é um projeto independente da comunidade, sem
 caráter oficial. Ele não é patrocinado nem endossado pelos clubes, pela ESPN ou
 pelo Omarchy.
 
-A licença MIT cobre o código, os scripts e as paletas originais. Ela não concede
+As paletas originais usam a licença MIT. O código e os scripts ficam no
+[repositório de ferramentas](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools), também sob MIT. A licença não concede
 direitos sobre marcas, personagens, fotografias ou outros materiais de terceiros
 presentes no pacote. As condições desses materiais continuam valendo, inclusive
 quando uma ilustração foi gerada por IA. A arte derivada foi pensada para uso
@@ -137,7 +116,8 @@ pessoal; isso não equivale a uma autorização dos titulares. Consulte [LICENSE
 e [NOTICE.md](NOTICE.md).
 
 As fontes Anton, Oswald e Archivo Black vêm do Google Fonts, sob a SIL Open Font
-License 1.1, com os textos da licença incluídos. Os escudos anteriores vieram de
+License 1.1, com os arquivos e as licenças no
+[repositório de ferramentas](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/tree/main/assets/fonts). Os escudos anteriores vieram de
 Wikimedia/Wikipédia; os adicionados vieram do feed gráfico da ESPN.
 As [referências das identidades](docs/serie-a-2026-fontes.md) e as URLs de origem
 estão registradas no projeto.

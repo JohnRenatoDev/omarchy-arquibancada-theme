@@ -49,8 +49,8 @@ Na revisão de 20/10/2026, a edição generativa corrige somente o tecido e o co
 da camisa. O compositor aplica o símbolo real em resolução final sobre o plano do peito;
 a revisão 5 substitui a rotação plana por uma projeção individual. Os arquivos
 institucionais completos continuam nos escudos editoriais; as variantes de camisa
-estão documentadas em `assets/kit-badges/sources.json`.
+estão documentadas em [assets/kit-badges/sources.json](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/blob/main/assets/kit-badges/sources.json).
 
 [Detalhes dos 20 uniformes](uniformes-revisao.jpg) ·
 [Comparação com a revisão anterior](brasoes-antes-depois.jpg) ·
-[Prompts usados](../assets/mascotes-generated/uniformes-2026-prompts.json)
+[Prompts usados](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/blob/main/assets/mascotes-generated/uniformes-2026-prompts.json)

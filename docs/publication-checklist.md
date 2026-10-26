@@ -1,63 +1,59 @@
 # Conferência da publicação
 
-Preparação autorizada em 20/10/2026 para publicar o Arquibancada e submetê-lo ao
-catálogo de temas do Omarchy.
+A distribuição foi reorganizada em 26/10/2026 para atender ao pedido no
+[PR do catálogo](https://github.com/omacom/omarchy-site/pull/593#issuecomment-6385084239).
 
-## Pacote distribuído
+## Distribuição do tema
 
-- A raiz contém a variante Santos instalável, com paleta, três wallpapers e
-  prévia 16:9. Os 20 clubes também têm suas próprias pastas em `themes/`.
-- São 60 wallpapers em 3840×2160. As ilustrações nativas têm 1672×941 e são
-  ampliadas proporcionalmente; a tipografia e os símbolos originais dos clubes
-  são compostos na resolução final.
-- O Saci do Internacional usa a pose aprovada, segurando a bola no braço,
-  com sua única perna apoiada no gramado.
-- O README está em inglês e PT-BR, com instalação, captura do desktop, galeria,
-  convite para contribuições e os avisos de direitos e de geração por IA.
-- A validação dos 20 temas, os quatro testes de projeção, a conferência das
-  regiões de tecido e a sintaxe do instalador passaram localmente.
-- O teste isolado do instalador conferiu links, cópias, backup do menu,
-  repetição sem duplicar entradas e preservação de temas locais independentes.
+Este repositório contém os temas prontos e a documentação. A raiz é a variante
+Santos instalável por `omarchy theme install`; os 20 clubes ficam em `themes/`.
+Cada clube mantém três wallpapers 3840×2160, paleta e prévia próprios.
 
-## Captura para o catálogo
+Os programas, os arquivos de entrada e a automação de validação ficam no
+[Arquibancada tools](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools).
+O repositório do tema não contém instaladores, geradores, testes ou workflows,
+inclusive em subpastas. As ferramentas usam caminhos explícitos para o checkout
+do tema e mantêm os intermediários fora dele.
 
-`desktop.png` mostra uma sessão real do Omarchy com a variante Santos, um
-terminal e o Neovim. As janelas foram abertas apenas com dados do projeto.
-A captura foi conferida visualmente, sem cursor, notificações ou dados pessoais.
+Os 176 arquivos visuais e de configuração foram preservados byte a byte,
+incluindo os 60 wallpapers dos clubes, as prévias, as paletas e o espelho do Santos
+na raiz. As ilustrações-base e os arquivos originais dos símbolos das camisas
+foram preservados no repositório de ferramentas. A revisão do Saci continua na
+pose aprovada, com uma única perna apoiada no gramado e a bola no braço.
 
-A versão destinada ao site tem 1200×675, formato WebP, metadados removidos e
-menos de 100 KB. A entrada do Arquibancada aponta para o repositório do pacote
-nos dois links e foi inserida após Archwave.
+## Verificações da separação
 
-As exigências foram conferidas no [guia oficial de submissão](https://github.com/omacom/omarchy-site#adding-your-theme).
-O PR adiciona apenas a imagem em `assets/themes/arquibancada.webp` e a entrada
-em `themes/index.html`. A inclusão no catálogo depende da revisão dos mantenedores.
+- Validação da distribuição sem código e dos 20 temas.
+- Conferência das dimensões, dos hashes das artes-base e das superfícies dos brasões.
+- Testes de instalação a partir de uma pasta externa, links, cópias, backup do
+  menu, repetição sem duplicar entradas e preservação de temas independentes.
+- Testes que rejeitam código em subpastas, workflows, arquivos executáveis,
+  scripts com extensão de documentação e links simbólicos na distribuição.
+- Reconstrução do Santos e das galerias em uma pasta isolada, sem alterar os
+  arquivos distribuídos nem o tema ativo do usuário.
+- Verificação das regiões de tecido do Vasco e do Flamengo.
 
-## Privacidade e histórico
+Os comandos de validação e o workflow ficam no repositório de ferramentas.
 
-A distribuição pública começa com um histórico novo. O histórico privado de
-desenvolvimento foi preservado fora dela, incluindo os arquivos antigos que
-continham um caminho da estação e uma resposta de erro com dados de conexão.
-Esses arquivos não fazem parte da publicação.
+## Catálogo e documentação
 
-Fotografias e obras baixadas apenas para pesquisa dos protótipos também foram
-retiradas. A pasta de pesquisa `assets/mascots/` fica ignorada pelo Git. As URLs
-de referência continuam registradas; os temas usam as artes geradas e revisadas.
+O PR do site mantém apenas a captura WebP e a entrada do Arquibancada em ordem
+alfabética. A captura real do desktop permanece igual: 1200×675, 98.556 bytes,
+com terminal e editor, sem dados pessoais e com metadados removidos.
 
-Todos os PNGs e JPEGs distribuídos tiveram seus formatos conferidos. Os arquivos
-de código executável e CI permaneceram iguais aos da revisão de segurança.
-A análise não apontou credenciais ou vulnerabilidade explorável no código
-revisado. Ela não certifica componentes externos, conteúdo comprimido de imagens
-ou programas internos das fontes.
+Os READMEs em inglês e PT-BR mostram a instalação nativa primeiro e apontam para
+a ferramenta opcional de instalação dos 20 clubes. Prompts, fontes e detalhes
+de composição continuam acessíveis por links para o repositório de ferramentas.
+A inclusão no catálogo depende da avaliação dos mantenedores.
 
-## Direitos e instalação
+## Direitos e histórico
 
-`LICENSE` cobre o código, os scripts e as paletas originais sob MIT. `NOTICE.md`
-preserva os créditos e distingue os materiais dos respectivos titulares.
-As licenças das fontes acompanham os arquivos. Este é um projeto independente,
-sem patrocínio ou endosso dos clubes, da ESPN ou do Omarchy. A publicação e o
-uso de IA não concedem direitos sobre marcas ou personagens de terceiros.
+As paletas originais usam MIT; o código e os scripts mantêm a licença MIT no
+repositório de ferramentas. As licenças das fontes acompanham os arquivos de
+entrada. Nomes, escudos, mascotes e demais marcas continuam pertencendo aos
+respectivos titulares. O projeto é independente e as imagens são geradas por IA,
+sem indicar preferência clubística do autor. Consulte [NOTICE.md](../NOTICE.md).
 
-O formato nativo foi conferido com a [documentação de temas do Omarchy](https://github.com/omacom/omarchy/blob/quattro/docs/theming.md).
-A instalação por URL oferece a variante padrão; o instalador do pacote oferece
-os 20 clubes. O acesso anônimo ao repositório será conferido antes da submissão.
+A separação usa commits normais e preserva o histórico público. O antigo histórico
+privado de desenvolvimento continua no arquivo privado, fora dos dois repositórios
+públicos. Fotografias usadas apenas como referência não são distribuídas.

@@ -6,7 +6,7 @@ as ilustrações são interpretações artísticas próprias, não cópias das f
 ## Participantes e escudos
 
 - [CBF — times da Série A 2026](https://www.cbf.com.br/futebol-brasileiro/times/campeonato-brasileiro/serie-a/2026): referência principal dos 20 participantes.
-- [ESPN — feed das equipes da Série A](https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/teams?limit=100): cruzamento das identidades e URLs dos escudos reais. Os 16 arquivos adicionados e suas URLs individuais estão em `assets/crests/serie-a-2026-sources.json`; os quatro escudos anteriores foram preservados.
+- [ESPN — feed das equipes da Série A](https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/teams?limit=100): cruzamento das identidades e URLs dos escudos reais. Os 16 arquivos adicionados e suas URLs individuais estão em [assets/crests/serie-a-2026-sources.json](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/blob/main/assets/crests/serie-a-2026-sources.json); os quatro escudos anteriores foram preservados.
 
 ## Mascotes
 

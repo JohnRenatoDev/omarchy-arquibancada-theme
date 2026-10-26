@@ -1,22 +1,23 @@
 # Créditos e escopo da licença
 
-A licença MIT se aplica ao código, aos scripts e às paletas originais deste
-projeto. Não concede direitos sobre marcas, escudos, personagens ou fotografias
-de terceiros contidos no pacote.
+A licença MIT se aplica às paletas originais deste projeto. O código e os scripts
+são mantidos sob MIT no [repositório de ferramentas](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools). A licença não
+concede direitos sobre marcas, escudos, personagens ou fotografias de terceiros.
 
 - Nomes, escudos e mascotes são de seus respectivos clubes e titulares.
-- Os novos escudos vieram do feed gráfico da ESPN; URLs individuais estão em
-  `assets/crests/serie-a-2026-sources.json`. Fontes anteriores estão em
-  `src/fetch_assets.py` e em `docs/serie-a-2026-fontes.md`.
-- As variantes de símbolos das camisas preservam as geometrias dos escudos reais;
-  fontes e método estão em `assets/kit-badges/sources.json`.
-- As fotografias e obras de referência usadas durante os protótipos não são
-  distribuídas nesta versão. As URLs de consulta permanecem nos registros de
-  fontes; os wallpapers atuais usam as ilustrações geradas separadamente.
-- As ilustrações em `assets/mascotes-generated/` foram geradas com `image_gen`,
-  com prompts e referência registrados nos arquivos JSON dessa pasta.
-- Fontes Anton, Oswald e Archivo Black: Google Fonts, SIL Open Font License 1.1.
-  Os textos correspondentes acompanham os arquivos em `assets/fonts/`.
+- Os escudos vieram de Wikimedia/Wikipedia e do feed gráfico da ESPN. As
+  [fontes das identidades](docs/serie-a-2026-fontes.md) e os
+  [registros individuais](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/blob/main/assets/crests/serie-a-2026-sources.json)
+  preservam as referências.
+- Os símbolos das camisas usam os arquivos originais. As referências ficam em
+  [sources.json](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/blob/main/assets/kit-badges/sources.json).
+- As ilustrações foram geradas com IA. As bases e os prompts ficam em
+  [assets/mascotes-generated](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/tree/main/assets/mascotes-generated).
+- As fotografias e obras usadas apenas como referência dos protótipos não são
+  distribuídas. As URLs de consulta permanecem nos registros de fontes.
+- Anton, Oswald e Archivo Black vêm de Google Fonts sob SIL Open Font License 1.1.
+  Os arquivos e suas licenças ficam em
+  [assets/fonts](https://github.com/JohnRenatoDev/omarchy-arquibancada-tools/tree/main/assets/fonts).
 
-Este pacote não é oficial, patrocinado ou endossado pelos clubes, ESPN ou Omarchy.
-A publicação deste pacote não altera a titularidade desses materiais.
+O pacote é independente, sem patrocínio ou endosso dos clubes, da ESPN ou do
+Omarchy. A publicação e o uso de IA não transferem direitos sobre esses materiais.
